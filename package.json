@@ -1,0 +1,19 @@
+{
+  "name": "sorin-weather-cli",
+  "version": "1.0.0",
+  "description": "cli for weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
