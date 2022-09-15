@@ -8,6 +8,7 @@ export const getWeather = async (city) => {
         throw new Error("Token is npt specified");
     }
 
+
     const { data } = await axios.get("https://api.openweathermap.org/data/2.5/weather", {
         params: {
             q: city,
